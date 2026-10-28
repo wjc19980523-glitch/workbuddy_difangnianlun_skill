@@ -1,0 +1,11 @@
+# zh.wikipedia: 清凉山
+# https://zh.wikipedia.org/wiki/%E6%B8%85%E5%87%89%E5%B1%B1
+# coords None
+
+清凉山可以指：
+
+五台山
+清凉山 (南京)
+清凉山 (延安)
+清凉山 (石家庄)
+清凉山镇，辽宁省鞍山市岫岩满族自治县辖镇

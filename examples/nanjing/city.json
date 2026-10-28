@@ -1,0 +1,39 @@
+{
+ "slug": "nanjing",
+ "name": "南京",
+ "title": "南京的年轮",
+ "subtitle": "长江之畔 · 两千五百年 · 十五道年轮",
+ "center": {
+  "lon": 118.7786,
+  "lat": 32.0439
+ },
+ "adminBBox": [
+  118.3345905,
+  31.2267477,
+  119.2395068,
+  32.615778
+ ],
+ "outro": {
+  "question": "南京这十五道年轮里，\n你最想走进哪一年？"
+ },
+ "ambient": [],
+ "map": {
+  "core": [
+   118.413,
+   31.608,
+   119.383,
+   32.398
+  ],
+  "wide": [
+   117.963,
+   31.258,
+   119.833,
+   32.778
+  ],
+  "satellite": "NASA GIBS HLS S30 2024-12-16 / S30 2025-01-05 / S30 2025-01-10 / S30 2025-11-18 / S30 2025-12-08",
+  "terrain": "AWS Terrain Tiles (Terrarium z11)",
+  "water": "EC JRC/Google Global Surface Water 2021 (occurrence)",
+  "exaggeration": 2.6
+ },
+ "mapCredit": "底图：NASA GIBS / HLS（含修改后的 Copernicus Sentinel-2 数据）· 地形：AWS Terrain Tiles · 水体：EC JRC/Google"
+}

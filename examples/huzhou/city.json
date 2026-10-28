@@ -1,0 +1,64 @@
+{
+ "slug": "huzhou",
+ "name": "湖州",
+ "title": "湖州的年轮",
+ "subtitle": "太湖南岸 · 四千年 · 十四道年轮",
+ "center": {
+  "lon": 120.0935,
+  "lat": 30.87
+ },
+ "map": {
+  "core": [
+   119.55,
+   30.45,
+   120.52,
+   31.24
+  ],
+  "wide": [
+   119.1,
+   30.1,
+   120.95,
+   31.62
+  ],
+  "exaggeration": 2.6,
+  "satellite": "NASA GIBS HLS_S30_Nadir_BRDF_Adjusted_Reflectance 2023-03-09"
+ },
+ "mapCredit": "底图：NASA GIBS / HLS（含修改后的 Copernicus Sentinel-2 数据）· 地形：AWS Terrain Tiles · 河道：© OpenStreetMap",
+ "ambient": [
+  {
+   "name": "太 湖",
+   "lon": 120.16,
+   "lat": 31.18
+  }
+ ],
+ "river": "assets/map/tiaoxi.json",
+ "intro": {
+  "dur": 9,
+  "cam0": {
+   "lon": 120.2,
+   "lat": 31.42,
+   "dist": 120,
+   "pitch": 16,
+   "yaw": 192
+  },
+  "cam1": {
+   "lon": 120.1,
+   "lat": 30.98,
+   "dist": 70,
+   "pitch": 24,
+   "yaw": 200
+  }
+ },
+ "outro": {
+  "dur": 10,
+  "question": "湖州这十四道年轮里，\n你最想走进哪一年？",
+  "cam": {
+   "lon": 120.05,
+   "lat": 30.84,
+   "dist": 105,
+   "pitch": 52,
+   "yaw": 345
+  }
+ },
+ "docs": "manual"
+}

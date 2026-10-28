@@ -1,0 +1,999 @@
+{
+ "nodes": [
+  {
+   "id": "n01",
+   "phase": "起源",
+   "place": "汤山",
+   "where": "江宁区 · 汤山东麓",
+   "geo": "汤山",
+   "year": "距今数十万年",
+   "era": "旧石器时代 · 葫芦洞",
+   "title": "南京猿人",
+   "body": [
+    "汤山葫芦洞出土猿人头盖骨，",
+    "被命名为“南京猿人”。",
+    "化石距今约60万至35万年。"
+   ],
+   "src": "维基百科 · 快懂百科",
+   "facts": [
+    {
+     "text": "汤山葫芦洞出土南京猿人头盖骨",
+     "quotes": [
+      {
+       "file": "wp_南京直立人.txt",
+       "quote": "1990年代出土于南京汤山葫芦洞的南京人化石地点"
+      },
+      {
+       "file": "bk_南京猿人.txt",
+       "quote": "化石于1993年发现于南京市江宁区汤山街道西南的雷公山上的葫芦洞"
+      }
+     ]
+    },
+    {
+     "text": "南京猿人化石距今约60万年—35万年",
+     "quotes": [
+      {
+       "file": "bk_南京猿人.txt",
+       "quote": "南京猿人化石距今约60万年—35万年"
+      },
+      {
+       "file": "wp_南京直立人.txt",
+       "quote": "距今约58－62万年"
+      }
+     ]
+    }
+   ],
+   "imageQuery": "南京猿人 | 汤山葫芦洞 | Nanjing Man skull",
+   "lon": 119.0627,
+   "lat": 32.05,
+   "geoSource": "OSM Nominatim:汤山, 汤泉路, 唐家湾, 汤山街道, 江宁区, 南京市, 江苏省, 211131, 中国",
+   "geoQuery": "汤山",
+   "images": [
+    {
+     "pick": "n01-3",
+     "caption": "南京猿人头盖骨化石模型 · 中国古动物馆",
+     "commons": "File:Nanjing Man IVPP.jpg",
+     "id": "n01a",
+     "credit": "摄影 Jonathan Chen · CC BY-SA 4.0 · Wikimedia Commons"
+    },
+    {
+     "pick": "n01-7",
+     "caption": "南京猿人洞景区（2022年摄）",
+     "commons": "File:南京猿人洞20220220 01.jpg",
+     "id": "n01b",
+     "credit": "摄影 西安兵马俑 · CC BY-SA 4.0 · Wikimedia Commons"
+    }
+   ]
+  },
+  {
+   "id": "n02",
+   "phase": "建城/得名",
+   "place": "长干里",
+   "where": "秦淮区 · 中华门外",
+   "geo": "长干桥",
+   "year": "前472年",
+   "era": "周元王四年 · 越",
+   "title": "越城",
+   "body": [
+    "前472年，范蠡在长干里筑越城。",
+    "这是南京城区建城史的开端。"
+   ],
+   "src": "维基百科 · 快懂百科",
+   "facts": [
+    {
+     "text": "前472年范蠡在长干里筑越城",
+     "quotes": [
+      {
+       "file": "wp_history.txt",
+       "quote": "周元王四年（前472年），越王勾践灭吴，范蠡于今中华门南的长干里一带筑越城"
+      },
+      {
+       "file": "bk_长干里.txt",
+       "quote": "南京历史上最早的城池——越城，便是由那位后来“泛舟五湖”的越国大夫范蠡在灭吴之后修建于此的"
+      }
+     ]
+    },
+    {
+     "text": "越城是南京城区建城史的开端",
+     "quotes": [
+      {
+       "file": "wp_city.txt",
+       "quote": "是现南京城区建城史的开始"
+      },
+      {
+       "file": "bk_长干里.txt",
+       "quote": "南京历史上最早的城池"
+      }
+     ]
+    }
+   ],
+   "imageQuery": "长干里 | 中华门 | Changganli Nanjing",
+   "lon": 118.7721,
+   "lat": 32.0152,
+   "geoSource": "OSM Nominatim:长干桥, 双塘街道, 秦淮区, 南京市, 江苏省, 210006, 中国",
+   "geoQuery": "长干桥",
+   "images": [
+    {
+     "pick": "n02-1",
+     "caption": "《长干里客金陵四十八景图》之一（1888年石印）",
+     "commons": "File:长干里客金陵四十八景图 三宿名岩.jpg",
+     "id": "n02a",
+     "credit": "公有领域 · Wikimedia Commons"
+    },
+    {
+     "pick": "n02-12",
+     "caption": "中华门全景（2009年摄）",
+     "commons": "File:中华门全景 - panoramio.jpg",
+     "id": "n02b",
+     "credit": "摄影 江上清风1961 · CC BY 3.0 · Wikimedia Commons"
+    }
+   ]
+  },
+  {
+   "id": "n03",
+   "phase": "建城/得名",
+   "place": "清凉山",
+   "where": "鼓楼区 · 石头山",
+   "geo": "清凉山",
+   "year": "前333年",
+   "era": "战国 · 楚威王七年",
+   "title": "金陵邑",
+   "body": [
+    "前333年，楚威王灭越，",
+    "在石头山筑金陵邑。",
+    "南京的别称“金陵”由此而来。"
+   ],
+   "src": "维基百科 · 快懂百科",
+   "facts": [
+    {
+     "text": "前333年楚威王灭越，在石头山筑金陵邑",
+     "quotes": [
+      {
+       "file": "wp_history.txt",
+       "quote": "前333年，楚威王熊商灭越，相传曾埋金以镇王气，在石头山（今清凉山）筑金陵邑，故南京别称“金陵”"
+      },
+      {
+       "file": "bk_楚威王.txt",
+       "quote": "楚威王七年（前333年），楚威王发兵战胜越军，杀死越王无疆，占领吴越之地至浙江"
+      }
+     ]
+    },
+    {
+     "text": "南京别称金陵",
+     "quotes": [
+      {
+       "file": "wp_history.txt",
+       "quote": "故南京别称“金陵”"
+      },
+      {
+       "file": "bk_南京市.txt",
+       "quote": "古称金陵、建康、石头城"
+      }
+     ]
+    }
+   ],
+   "imageQuery": "清凉山 | 金陵邑 | Qingliang Mountain Nanjing",
+   "lon": 118.7558,
+   "lat": 32.0525,
+   "geoSource": "OSM Nominatim:清凉山, 南京市, 江苏省, 210098, 中国",
+   "geoQuery": "清凉山",
+   "images": [
+    {
+     "pick": "n03-4",
+     "caption": "清凉山公园大门（2015年重建）",
+     "commons": "File:Qingliangshan Park Gate.jpg",
+     "id": "n03a",
+     "credit": "摄影 Haha169 · CC BY-SA 4.0 · Wikimedia Commons"
+    },
+    {
+     "pick": "n03-5",
+     "caption": "南京清凉山公园（2011年摄）",
+     "commons": "File:南京清凉山公园 - panoramio.jpg",
+     "id": "n03b",
+     "credit": "摄影 东京村子 · CC BY-SA 3.0 · Wikimedia Commons"
+    }
+   ]
+  },
+  {
+   "id": "n04",
+   "phase": "鼎盛",
+   "place": "石头城",
+   "where": "鼓楼区 · 清凉山麓",
+   "geo": "石头城",
+   "year": "229年",
+   "era": "东吴 · 黄龙元年",
+   "title": "建业建都",
+   "body": [
+    "229年，孙权称帝，定都建业。",
+    "石头城下的这片土地，",
+    "第一次成为都城。"
+   ],
+   "src": "维基百科 · 快懂百科",
+   "facts": [
+    {
+     "text": "229年孙权称帝，定都建业",
+     "quotes": [
+      {
+       "file": "wp_history.txt",
+       "quote": "229年在此建都，名“建业”，都城周长约11公里，开始了南京的都城史"
+      },
+      {
+       "file": "bk_六朝.txt",
+       "quote": "黄龙元年（公元229年）秋九月，占据江东的孙权正式登基称帝，建立孙吴政权，定都于建业"
+      }
+     ]
+    },
+    {
+     "text": "建业是六朝的第一个都城",
+     "quotes": [
+      {
+       "file": "wp_history.txt",
+       "quote": "开始了南京的都城史"
+      },
+      {
+       "file": "bk_六朝.txt",
+       "quote": "定都于建业，开六朝之序幕"
+      }
+     ]
+    }
+   ],
+   "imageQuery": "石头城 | 孙权 | Stone City Nanjing",
+   "lon": 118.7497,
+   "lat": 32.0524,
+   "geoSource": "zh.wikipedia:石头城",
+   "geoQuery": "石头城",
+   "images": [
+    {
+     "pick": "n04-12",
+     "caption": "南京城墙石头城遗迹",
+     "commons": "File:南京城墙石头城遗迹.jpg",
+     "id": "n04a",
+     "credit": "摄影 Changongke · CC BY-SA 4.0 · Wikimedia Commons"
+    },
+    {
+     "pick": "n04-4",
+     "caption": "俯看石头城公园（2008年摄）",
+     "commons": "File:俯看石头城公园 - panoramio.jpg",
+     "id": "n04b",
+     "credit": "摄影 史氏 · CC BY 3.0 · Wikimedia Commons"
+    }
+   ]
+  },
+  {
+   "id": "n05",
+   "phase": "转折",
+   "place": "台城",
+   "where": "玄武区 · 鸡鸣寺旁",
+   "geo": "鸡鸣寺",
+   "year": "589年",
+   "era": "隋 · 开皇九年",
+   "title": "建康湮灭",
+   "body": [
+    "589年，隋军攻入台城，陈朝灭亡。",
+    "建康的宫苑被平毁为农田。",
+    "六朝繁华，一朝散尽。"
+   ],
+   "src": "维基百科 · 快懂百科",
+   "facts": [
+    {
+     "text": "589年隋军攻入台城，陈朝灭亡",
+     "quotes": [
+      {
+       "file": "wp_台城.txt",
+       "quote": "开皇九年（589年）隋军攻入台城灭亡了陈朝"
+      },
+      {
+       "file": "bk_隋灭陈.txt",
+       "quote": "589年，隋军攻破建康，生擒陈后主"
+      }
+     ]
+    },
+    {
+     "text": "建康城被平毁为农田",
+     "quotes": [
+      {
+       "file": "wp_city.txt",
+       "quote": "589年，隋军灭陈后将建康全部平毁为农田"
+      },
+      {
+       "file": "bk_隋灭陈.txt",
+       "quote": "陈灭后，“建康城邑并平荡耕垦”，所有军事设施均被废毁"
+      }
+     ]
+    }
+   ],
+   "imageQuery": "台城 南京 | 鸡鸣寺 | Taicheng Nanjing",
+   "lon": 118.79,
+   "lat": 32.0631,
+   "geoSource": "zh.wikipedia:鸡鸣寺",
+   "geoQuery": "鸡鸣寺",
+   "images": [
+    {
+     "pick": "n05-1",
+     "caption": "《亚细亚大观》中的南京台城",
+     "commons": "File:亜細亜大観 15 121 \"臺城 （南京）\".jpg",
+     "id": "n05a",
+     "credit": "公有领域 · Wikimedia Commons"
+    },
+    {
+     "pick": "n05-3",
+     "caption": "台城遗址出土现场的建康城模型",
+     "commons": "File:20240605 Model of Jiankang in the site of Taicheng in the Nanjing Library.jpg",
+     "id": "n05b",
+     "credit": "摄影 Yumeto · CC BY-SA 4.0 · Wikimedia Commons"
+    }
+   ]
+  },
+  {
+   "id": "n06",
+   "phase": "鼎盛",
+   "place": "祖堂山",
+   "where": "江宁区 · 南唐二陵",
+   "geo": "南唐二陵",
+   "year": "937年",
+   "era": "南唐 · 升元元年",
+   "title": "江宁府",
+   "body": [
+    "937年，李昪定都金陵，",
+    "改称江宁府。",
+    "他与儿子李璟，都葬在祖堂山。"
+   ],
+   "src": "维基百科 · 快懂百科",
+   "facts": [
+    {
+     "text": "937年李昪定都金陵，改称江宁府",
+     "quotes": [
+      {
+       "file": "wp_city.txt",
+       "quote": "937年，南唐烈祖李昪建都金陵，改称江宁府"
+      },
+      {
+       "file": "bk_李昪.txt",
+       "quote": "以金陵（今南京市）为都城"
+      }
+     ]
+    },
+    {
+     "text": "南唐二陵是李昪与李璟的陵墓",
+     "quotes": [
+      {
+       "file": "wp_南唐二陵.txt",
+       "quote": "包括南唐烈祖李昪的钦陵和中主李璟的顺陵"
+      },
+      {
+       "file": "bk_南唐二陵.txt",
+       "quote": "为五代南唐烈祖李昪及其妻宋氏的“钦陵”和世宗李璟及其妻钟氏的“顺陵”"
+      }
+     ]
+    }
+   ],
+   "imageQuery": "南唐二陵 | 钦陵 | Southern Tang tombs",
+   "lon": 118.7336,
+   "lat": 31.8906,
+   "geoSource": "zh.wikipedia:南唐二陵",
+   "geoQuery": "南唐二陵",
+   "images": [
+    {
+     "pick": "n06-1",
+     "caption": "南唐二陵钦陵",
+     "commons": "File:南唐二陵--钦陵.jpg",
+     "id": "n06a",
+     "credit": "摄影 Zhujin1003 · CC BY-SA 4.0 · Wikimedia Commons"
+    },
+    {
+     "pick": "n06-9",
+     "caption": "李昪墓出土陶舞俑 · 中国国家博物馆",
+     "commons": "File:Pottery Dancers. 943 CE. From tomb of Li Bian, founder of Southern Tang Dynasty.jpg",
+     "id": "n06b",
+     "credit": "摄影 John Hill · CC BY-SA 3.0 · Wikimedia Commons"
+    }
+   ]
+  },
+  {
+   "id": "n08",
+   "phase": "鼎盛",
+   "place": "中华门",
+   "where": "秦淮区 · 城南",
+   "geo": "中华门",
+   "year": "1366年",
+   "era": "元末 · 朱元璋始筑",
+   "title": "城垣与瓮城",
+   "body": [
+    "南京城墙始建于1366年，",
+    "原长35.267公里，现存约25公里。",
+    "中华门是现存最大的瓮城。"
+   ],
+   "src": "维基百科 · 快懂百科",
+   "facts": [
+    {
+     "text": "南京城墙始建于1366年",
+     "quotes": [
+      {
+       "file": "wp_中华门.txt",
+       "quote": "明太祖朱元璋自1366年开始修筑南京城垣"
+      },
+      {
+       "file": "bk_南京城墙.txt",
+       "quote": "始建于1366年，历时长达21年修建而成"
+      }
+     ]
+    },
+    {
+     "text": "城墙原长35.267公里，现存约25公里",
+     "quotes": [
+      {
+       "file": "wp_南京城墙.txt",
+       "quote": "周长35.267公里，现存基本完好的明城墙25公里"
+      },
+      {
+       "file": "bk_南京城墙.txt",
+       "quote": "南京城墙原长35.267千米"
+      }
+     ]
+    },
+    {
+     "text": "中华门是中国现存最大的城堡式瓮城",
+     "quotes": [
+      {
+       "file": "wp_中华门.txt",
+       "quote": "中华门城堡是中国现存最大的城堡式瓮城"
+      },
+      {
+       "file": "bk_聚宝门.txt",
+       "quote": "是中国现存规模最大的城门，也是当今世界上保存最完好、结构最复杂的古代瓮城城堡"
+      }
+     ]
+    }
+   ],
+   "imageQuery": "中华门 南京 | Zhonghua Gate Nanjing | 南京城墙",
+   "lon": 118.7764,
+   "lat": 32.0142,
+   "geoSource": "zh.wikipedia:中华门",
+   "geoQuery": "中华门",
+   "images": [
+    {
+     "pick": "n08-9",
+     "caption": "南京中华门（2021年摄）",
+     "commons": "File:南京中华门.jpg",
+     "id": "n08a",
+     "credit": "摄影 钉钉 · CC BY-SA 4.0 · Wikimedia Commons"
+    },
+    {
+     "pick": "n08-3",
+     "caption": "南京城墙南段（2024年摄）",
+     "commons": "File:2024Apr - Nanjing City Wall (south section) - img 10.jpg",
+     "id": "n08b",
+     "credit": "摄影 Chainwit. · CC BY 4.0 · Wikimedia Commons"
+    }
+   ]
+  },
+  {
+   "id": "n07",
+   "phase": "鼎盛",
+   "place": "明故宫",
+   "where": "秦淮区 · 中山东路",
+   "geo": "明故宫",
+   "year": "1368年",
+   "era": "明 · 洪武元年",
+   "title": "洪武定都",
+   "body": [
+    "1368年，朱元璋在应天称帝。",
+    "国号大明，建元洪武。",
+    "明故宫是北京故宫的蓝本。"
+   ],
+   "src": "维基百科 · 快懂百科",
+   "facts": [
+    {
+     "text": "1368年朱元璋在应天称帝，定都南京",
+     "quotes": [
+      {
+       "file": "wp_city.txt",
+       "quote": "1368年，朱元璋建立明朝，以应天为京师"
+      },
+      {
+       "file": "bk_朱元璋.txt",
+       "quote": "于至正二十八年（1368年）在应天称帝，国号大明，建元洪武"
+      }
+     ]
+    },
+    {
+     "text": "北京宫殿仿照南京制度营建",
+     "quotes": [
+      {
+       "file": "wp_history.txt",
+       "quote": "北京皇宫及官衙均仿照南京制度"
+      },
+      {
+       "file": "bk_明故宫.txt",
+       "quote": "是北京故宫的蓝本、明朝的皇宫"
+      }
+     ]
+    }
+   ],
+   "imageQuery": "明故宫 南京 | 午门 明故宫 | Ming Palace Nanjing",
+   "lon": 118.8124,
+   "lat": 32.0396,
+   "geoSource": "zh.wikipedia:明故宫",
+   "geoQuery": "明故宫",
+   "images": [
+    {
+     "pick": "n07-12",
+     "caption": "明故宫午门",
+     "commons": "File:Nanjing Ming Palace-Wumen Gate01.jpg",
+     "id": "n07a",
+     "credit": "摄影 Kallgan · CC BY-SA 3.0 · Wikimedia Commons"
+    },
+    {
+     "pick": "n07-2",
+     "caption": "明故宫复原模型",
+     "commons": "File:20231123 Model of the Ming palace in the Ming Palace Ruins Park.jpg",
+     "id": "n07b",
+     "credit": "摄影 Yumeto · CC BY-SA 4.0 · Wikimedia Commons"
+    }
+   ]
+  },
+  {
+   "id": "n09",
+   "phase": "鼎盛",
+   "place": "大报恩寺",
+   "where": "秦淮区 · 雨花路",
+   "geo": "大报恩寺",
+   "year": "1412年",
+   "era": "明 · 永乐十年",
+   "title": "大报恩寺",
+   "body": [
+    "永乐十年，朱棣敕建大报恩寺，",
+    "历时十九年建成。",
+    "琉璃塔毁于天京之变的战火。"
+   ],
+   "src": "维基百科 · 快懂百科",
+   "facts": [
+    {
+     "text": "1412年明成祖敕建大报恩寺",
+     "quotes": [
+      {
+       "file": "wp_大报恩寺_(南京).txt",
+       "quote": "永乐十年（1412年），敕工部重建"
+      },
+      {
+       "file": "bk_大报恩寺.txt",
+       "quote": "明朝永乐十年（1412年），明成祖朱棣为纪念明太祖朱元璋和马皇后"
+      },
+      {
+       "file": "wp_大报恩寺_(南京).txt",
+       "quote": "历时19年，耗银250万两"
+      }
+     ]
+    },
+    {
+     "text": "大报恩寺毁于1856年战火",
+     "quotes": [
+      {
+       "file": "wp_大报恩寺_(南京).txt",
+       "quote": "1856年，太平天国发生天京之变，北王韦昌辉"
+      },
+      {
+       "file": "bk_大报恩寺.txt",
+       "quote": "最终在1856年的太平天国运动中毁为废墟"
+      }
+     ]
+    }
+   ],
+   "imageQuery": "大报恩寺 琉璃塔 | Porcelain Tower Nanjing",
+   "lon": 118.778,
+   "lat": 32.011,
+   "geoSource": "OSM Nominatim:大报恩寺, 1号, 雨花路, 中华门街道, 秦淮区, 南京市, 江苏省, 210006, 中国",
+   "geoQuery": "大报恩寺",
+   "images": [
+    {
+     "pick": "n09-2",
+     "caption": "瓷塔版画（1668年）",
+     "commons": "File:1668 Tour de Porcelaine.png",
+     "id": "n09a",
+     "credit": "公有领域 · Wikimedia Commons"
+    },
+    {
+     "pick": "n09-5",
+     "caption": "南京瓷塔（1860年书页插图）",
+     "commons": "File:CHIMMO(1860) p075 PORCELAIN TOWER AT NANKING.jpg",
+     "id": "n09b",
+     "credit": "公有领域 · Wikimedia Commons"
+    }
+   ]
+  },
+  {
+   "id": "n10",
+   "phase": "转折",
+   "place": "静海寺",
+   "where": "鼓楼区 · 下关",
+   "geo": "静海寺",
+   "year": "1842年",
+   "era": "清 · 道光二十二年",
+   "title": "南京条约",
+   "body": [
+    "1842年，中英在静海寺议约，",
+    "《南京条约》在此谈定。",
+    "割香港岛，开五口通商。"
+   ],
+   "src": "维基百科 · 快懂百科",
+   "facts": [
+    {
+     "text": "1842年中英在静海寺议《南京条约》",
+     "quotes": [
+      {
+       "file": "wp_静海寺.txt",
+       "quote": "1842年，清朝与英国在寺内进行了有关《南京条约》的谈判"
+      },
+      {
+       "file": "bk_静海寺.txt",
+       "quote": "1842年8月29日，中英《南京条约》在静海寺内进行了谈判"
+      }
+     ]
+    },
+    {
+     "text": "条约规定割香港岛、开五口通商",
+     "quotes": [
+      {
+       "file": "wp_南京条约.txt",
+       "quote": "包含清朝割让香港岛予英国，并开放五口通商"
+      },
+      {
+       "file": "bk_南京条约.txt",
+       "quote": "开放广州、厦门、福州、宁波、上海五处为通商口岸；割香港岛给英国"
+      }
+     ]
+    }
+   ],
+   "imageQuery": "静海寺 | 南京条约 | Treaty of Nanking",
+   "lon": 118.7411,
+   "lat": 32.0942,
+   "geoSource": "zh.wikipedia:静海寺",
+   "geoQuery": "静海寺",
+   "images": [
+    {
+     "pick": "n10-3",
+     "caption": "《南京条约》中文原本起言（1842年）",
+     "commons": "File:南京條約中英文原本 中文條約起言 Treaty of Nanking Treaty CH Begin.png",
+     "id": "n10a",
+     "credit": "公有领域 · Wikimedia Commons"
+    },
+    {
+     "pick": "n10-12",
+     "caption": "《南京条约》签署场景（1846年）",
+     "commons": "File:The Signing of the Treaty of Nanking.jpg",
+     "id": "n10b",
+     "credit": "公有领域 · Wikimedia Commons"
+    }
+   ]
+  },
+  {
+   "id": "n11",
+   "phase": "转折",
+   "place": "天王府",
+   "where": "玄武区 · 长江路",
+   "geo": "总统府",
+   "year": "1853年",
+   "era": "太平天国 · 癸好三年",
+   "title": "天京",
+   "body": [
+    "1853年，太平军攻占江宁，",
+    "改名天京。",
+    "洪秀全把总督署改成天王府。"
+   ],
+   "src": "维基百科 · 快懂百科",
+   "facts": [
+    {
+     "text": "1853年太平天国定都天京",
+     "quotes": [
+      {
+       "file": "wp_history.txt",
+       "quote": "1853年，太平天国攻占江宁，定都于此，号“天京”"
+      },
+      {
+       "file": "bk_太平天国.txt",
+       "quote": "于三年二月攻克南京，定为都城，改称天京"
+      }
+     ]
+    },
+    {
+     "text": "洪秀全将两江总督署改建为天王府",
+     "quotes": [
+      {
+       "file": "wp_天王府.txt",
+       "quote": "洪秀全将总督署改建为宏大奢华的天王宫，史称天王府"
+      },
+      {
+       "file": "bk_总统府.txt",
+       "quote": "太平天国时期，洪秀全在此兴建了天朝宫殿"
+      }
+     ]
+    }
+   ],
+   "imageQuery": "天王府 南京 | 总统府 | Tianwang Palace Nanjing",
+   "lon": 118.7922,
+   "lat": 32.0461,
+   "geoSource": "OSM Nominatim:总统府, 东箭道, 梅园新村街道, 玄武区, 南京市, 江苏省, 210018, 中国",
+   "geoQuery": "总统府",
+   "images": [
+    {
+     "pick": "n11-3",
+     "caption": "天王府内的洪秀全像（2006年摄）",
+     "commons": "File:HongXiuQuan TianWangFu Nanjing.jpg",
+     "id": "n11a",
+     "credit": "摄影 No machine-readable author provided. Far · CC BY-SA 3.0 · Wikimedia Commons"
+    },
+    {
+     "pick": "n11-6",
+     "caption": "天朝宫殿模型",
+     "commons": "File:Model-of-palace-of-heavenly-kingdom.JPG",
+     "id": "n11b",
+     "credit": "摄影 佚名 · CC BY-SA 3.0 · Wikimedia Commons"
+    }
+   ]
+  },
+  {
+   "id": "n12",
+   "phase": "近现代",
+   "place": "总统府",
+   "where": "玄武区 · 长江路",
+   "geo": "总统府",
+   "year": "1912年",
+   "era": "民国元年 · 一月",
+   "title": "临时大总统",
+   "body": [
+    "1912年1月1日，",
+    "孙中山在南京就任临时大总统。",
+    "中华民国临时政府成立。"
+   ],
+   "src": "维基百科 · 快懂百科",
+   "facts": [
+    {
+     "text": "1912年1月1日孙中山在南京就任临时大总统",
+     "quotes": [
+      {
+       "file": "wp_history.txt",
+       "quote": "1912年1月1日（民国元年）孙中山在南京宣布成立中华民国，出任临时大总统"
+      },
+      {
+       "file": "bk_中华民国临时政府.txt",
+       "quote": "孙中山宣誓就任中华民国临时大总统"
+      }
+     ]
+    },
+    {
+     "text": "临时大总统府设于原两江总督署",
+     "quotes": [
+      {
+       "file": "wp_天王府.txt",
+       "quote": "孙中山在这里就任中华民国临时大总统，改原两江总督署为临时大总统府"
+      },
+      {
+       "file": "bk_总统府.txt",
+       "quote": "民国时期，被用作中华民国临时大总统府"
+      }
+     ]
+    }
+   ],
+   "imageQuery": "南京总统府 | 孙中山 | Presidential Palace Nanjing",
+   "lon": 118.7922,
+   "lat": 32.0461,
+   "geoSource": "OSM Nominatim:总统府, 东箭道, 梅园新村街道, 玄武区, 南京市, 江苏省, 210018, 中国",
+   "geoQuery": "总统府",
+   "images": [
+    {
+     "pick": "n12-2",
+     "caption": "孙中山像（1896年摄于旧金山）",
+     "commons": "File:1896年孙中山摄于旧金山.jpg",
+     "id": "n12a",
+     "credit": "公有领域 · Wikimedia Commons"
+    },
+    {
+     "pick": "n12-12",
+     "caption": "总统府大堂（2017年摄）",
+     "commons": "File:Main Hall, Nanjing Presidential Palace, Oct 2017 (2).jpg",
+     "id": "n12b",
+     "credit": "摄影 ScareCriterion12 · CC BY-SA 4.0 · Wikimedia Commons"
+    }
+   ]
+  },
+  {
+   "id": "n13",
+   "phase": "近现代",
+   "place": "江东门",
+   "where": "建邺区 · 水西门大街",
+   "geo": "侵华日军南京大屠杀遇难同胞纪念馆",
+   "year": "1937年",
+   "era": "民国二十六年 · 冬",
+   "title": "南京大屠杀",
+   "body": [
+    "12月13日，日军攻陷南京。",
+    "此后六周，三十万人遇难。",
+    "这是南京最沉痛的一页。"
+   ],
+   "src": "维基百科 · 快懂百科",
+   "facts": [
+    {
+     "text": "1937年12月13日日军攻陷南京，屠杀持续六周",
+     "quotes": [
+      {
+       "file": "wp_city.txt",
+       "quote": "12月13日，日军攻陷南京，其后南京大屠杀，日军的暴行从1937年12月13日攻占南京开始持续6周以上"
+      },
+      {
+       "file": "bk_南京大屠杀.txt",
+       "quote": "1937年12月，日军攻入中国古都南京"
+      }
+     ]
+    },
+    {
+     "text": "约三十万人遇难",
+     "quotes": [
+      {
+       "file": "wp_history.txt",
+       "quote": "至少30万人遇难"
+      },
+      {
+       "file": "bk_南京大屠杀.txt",
+       "quote": "30多万中国平民和士兵"
+      }
+     ]
+    }
+   ],
+   "imageQuery": "侵华日军南京大屠杀遇难同胞纪念馆 | 南京大屠杀纪念馆",
+   "lon": 118.7435,
+   "lat": 32.0355,
+   "geoSource": "zh.wikipedia:侵华日军南京大屠杀遇难同胞纪念馆",
+   "geoQuery": "侵华日军南京大屠杀遇难同胞纪念馆",
+   "images": [
+    {
+     "pick": "n13-5",
+     "caption": "刻着“300000”的十字架 · 纪念馆",
+     "commons": "File:Cross at the Memorial Hall of the Victims in Nanjing Massacre by Japanese Invaders.jpg",
+     "id": "n13a",
+     "credit": "摄影 R.mamor · CC BY-SA 4.0 · Wikimedia Commons"
+    },
+    {
+     "pick": "n13-4",
+     "caption": "纪念馆前的“300000”雕塑",
+     "commons": "File:南京大屠杀纪念馆300000雕塑.jpg",
+     "id": "n13b",
+     "credit": "摄影 董辰兴 · CC BY-SA 4.0 · Wikimedia Commons"
+    }
+   ]
+  },
+  {
+   "id": "n14",
+   "phase": "近现代",
+   "place": "长江大桥",
+   "where": "下关 · 浦口",
+   "geo": "南京长江大桥",
+   "year": "1968年",
+   "era": "12月29日 · 全线通车",
+   "title": "长江大桥",
+   "body": [
+    "1968年，南京长江大桥通车。",
+    "上层公路，下层铁路，",
+    "是长江上第一座中国自建的双层桥。"
+   ],
+   "src": "维基百科 · 快懂百科",
+   "facts": [
+    {
+     "text": "1968年南京长江大桥建成",
+     "quotes": [
+      {
+       "file": "wp_history.txt",
+       "quote": "1968年，连接津浦铁路与沪宁铁路的南北交通要津南京长江大桥建成"
+      },
+      {
+       "file": "bk_南京长江大桥.txt",
+       "quote": "1968年12月29日建成"
+      },
+      {
+       "file": "wp_南京长江大桥.txt",
+       "quote": "12月29日，公路桥正式通车，南京长江大桥全线贯通"
+      }
+     ]
+    },
+    {
+     "text": "长江上第一座中国自行设计建造的双层式公铁两用桥",
+     "quotes": [
+      {
+       "file": "wp_南京长江大桥.txt",
+       "quote": "是第一座完全由中国设计建造并基本采用国产材料的特大型桥梁"
+      },
+      {
+       "file": "bk_南京长江大桥.txt",
+       "quote": "长江上第一座由我国自行设计建造的双层式铁路、公路两用桥梁"
+      }
+     ]
+    }
+   ],
+   "imageQuery": "南京长江大桥 | Nanjing Yangtze River Bridge",
+   "lon": 118.7397,
+   "lat": 32.1153,
+   "geoSource": "zh.wikipedia:南京长江大桥",
+   "geoQuery": "南京长江大桥",
+   "images": [
+    {
+     "pick": "n14-12",
+     "caption": "南京长江大桥夜景 · 浦口一侧（2019年摄）",
+     "commons": "File:Nanjing Yangtze River Bridge Night Pukou.jpg",
+     "id": "n14a",
+     "credit": "摄影 Vasily Astanin · CC BY-SA 4.0 · Wikimedia Commons"
+    },
+    {
+     "pick": "n14-3",
+     "caption": "南京长江大桥（2012年摄）",
+     "commons": "File:First Nanjing Yangtze River Bridge.JPG",
+     "id": "n14b",
+     "credit": "摄影 Glabb · CC BY-SA 3.0 · Wikimedia Commons"
+    }
+   ]
+  },
+  {
+   "id": "n15",
+   "phase": "今天",
+   "place": "明孝陵",
+   "where": "玄武区 · 紫金山南麓",
+   "geo": "明孝陵",
+   "year": "2003年",
+   "era": "世界文化遗产",
+   "title": "明孝陵",
+   "body": [
+    "明孝陵是朱元璋与马皇后的合葬陵。",
+    "2003年，作为明清皇家陵寝的",
+    "扩展项目列入《世界遗产名录》。"
+   ],
+   "src": "维基百科 · 快懂百科",
+   "facts": [
+    {
+     "text": "2003年明孝陵列入《世界遗产名录》",
+     "quotes": [
+      {
+       "file": "wp_明孝陵.txt",
+       "quote": "2003年7月3日，联合国教科文组织世界遗产委员会召开第27届会议，会上明孝陵被入选为世界文化遗产"
+      },
+      {
+       "file": "bk_明孝陵.txt",
+       "quote": "2003年7月3日，明孝陵作为明清皇家陵寝扩展项目被"
+      }
+     ]
+    },
+    {
+     "text": "明孝陵是朱元璋与马皇后的合葬陵",
+     "quotes": [
+      {
+       "file": "wp_明孝陵.txt",
+       "quote": "明孝陵是明代开国皇帝朱元璋和皇后马氏的合葬陵墓"
+      },
+      {
+       "file": "bk_明孝陵.txt",
+       "quote": "为明太祖朱元璋与孝慈高皇后马氏的合葬陵墓"
+      }
+     ]
+    }
+   ],
+   "imageQuery": "明孝陵 | Ming Xiaoling Mausoleum",
+   "lon": 118.8346,
+   "lat": 32.0603,
+   "geoSource": "zh.wikipedia:明孝陵",
+   "geoQuery": "明孝陵",
+   "images": [
+    {
+     "pick": "n15-10",
+     "caption": "明孝陵明楼（2017年摄）",
+     "commons": "File:Nanjing Ming Xiaoling 2017.11.11 08-10-27.jpg",
+     "id": "n15a",
+     "credit": "摄影 Zhangzhugang · CC BY-SA 4.0 · Wikimedia Commons"
+    },
+    {
+     "pick": "n15-11",
+     "caption": "明孝陵宝城",
+     "commons": "File:明孝陵-宝城2.jpg",
+     "id": "n15b",
+     "credit": "摄影 Kallgan · CC BY-SA 3.0 · Wikimedia Commons"
+    }
+   ]
+  }
+ ]
+}

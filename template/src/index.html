@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>年轮</title>
+<script type="importmap">
+{ "imports": { "three": "/node_modules/three/build/three.module.js",
+               "three/addons/": "/node_modules/three/examples/jsm/" } }
+</script>
+<style>
+  html, body { margin: 0; padding: 0; background: #000; overflow: hidden; }
+  #stage { position: relative; width: 1080px; height: 1920px; overflow: hidden; background: #000;
+           font-family: 'Noto Serif CJK SC', 'Noto Serif CJK TC', serif; color: #efe7d6; }
+  canvas#gl { position: absolute; inset: 0; width: 1080px; height: 1920px; }
+  .layer { position: absolute; inset: 0; pointer-events: none; }
+  /* soft cinematic bands that hold the typography */
+  #bands::before, #bands::after { content: ''; position: absolute; left: 0; right: 0; }
+  #bands::before { top: 0; height: 520px; background: linear-gradient(to bottom, rgba(4,5,7,.82), rgba(4,5,7,.45) 55%, rgba(4,5,7,0)); }
+  #bands::after { bottom: 0; height: 760px; background: linear-gradient(to top, rgba(4,5,7,.9), rgba(4,5,7,.62) 50%, rgba(4,5,7,0)); }
+
+  #head { position: absolute; left: 84px; right: 84px; top: 150px; }
+  #counter { font-family: 'Noto Sans CJK SC', sans-serif; font-size: 22px; letter-spacing: .42em; color: rgba(214,186,132,.9); display: flex; align-items: center; gap: 22px; }
+  #counter .rule { height: 1px; width: 90px; background: linear-gradient(to right, rgba(214,186,132,.9), rgba(214,186,132,0)); }
+  #year { margin-top: 26px; font-size: 112px; font-weight: 600; letter-spacing: .04em; line-height: 1.05; color: #f3ead8;
+          text-shadow: 0 4px 30px rgba(0,0,0,.55); }
+  #era { margin-top: 18px; font-size: 30px; letter-spacing: .32em; color: rgba(222,196,146,.95); }
+
+  #foot { position: absolute; left: 84px; right: 84px; bottom: 170px; }
+  #title { font-size: 62px; font-weight: 600; letter-spacing: .12em; color: #f6eedd; text-shadow: 0 3px 24px rgba(0,0,0,.6); }
+  #title-rule { margin: 26px 0 26px; height: 1px; width: 0; background: linear-gradient(to right, rgba(214,186,132,.95), rgba(214,186,132,0)); }
+  #body div { font-size: 35px; line-height: 1.72; letter-spacing: .05em; color: rgba(240,232,214,.94); text-shadow: 0 2px 16px rgba(0,0,0,.7); }
+  #src { margin-top: 30px; font-family: 'Noto Sans CJK SC', sans-serif; font-size: 22px; letter-spacing: .12em; color: rgba(226,214,190,.62); }
+
+  #card { position: absolute; left: 90px; width: 900px; top: 560px; height: 760px; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+  .imgwrap { position: relative; overflow: hidden; background: #e9e1cf; padding: 12px; box-shadow: 0 30px 80px rgba(0,0,0,.65), 0 0 0 1px rgba(255,255,255,.06); }
+  .imgwrap .clip { overflow: hidden; position: relative; }
+  .imgwrap img { display: block; transform-origin: 50% 50%; }
+  .imgwrap .tone { position: absolute; inset: 0; background: radial-gradient(ellipse at center, rgba(0,0,0,0) 55%, rgba(30,20,8,.28)); mix-blend-mode: multiply; }
+  .cap { margin-top: 24px; text-align: center; font-size: 25px; letter-spacing: .08em; color: rgba(240,232,214,.92); text-shadow: 0 2px 12px rgba(0,0,0,.8); }
+  .credit { margin-top: 8px; text-align: center; font-family: 'Noto Sans CJK SC', sans-serif; font-size: 18px; letter-spacing: .06em; color: rgba(226,214,190,.55); }
+
+  .tcard { width: 760px; padding: 70px 60px 64px; background: linear-gradient(160deg, rgba(22,20,17,.86), rgba(10,10,9,.9));
+           border: 1px solid rgba(214,186,132,.45); box-shadow: 0 30px 80px rgba(0,0,0,.6); text-align: center; position: relative; }
+  .tcard::before { content: ''; position: absolute; inset: 10px; border: 1px solid rgba(214,186,132,.18); }
+  .tcard .big { font-size: 150px; font-weight: 600; letter-spacing: .14em; color: #efe3c6; line-height: 1.1; }
+  .tcard .seal { display: inline-block; margin: 26px 0 18px; width: 18px; height: 18px; background: #9b2f22; transform: rotate(45deg); }
+  .tcard .ln { font-size: 36px; letter-spacing: .2em; line-height: 1.8; color: rgba(236,226,204,.92); }
+
+  #labels .lab { position: absolute; transform: translate(-50%, -100%); white-space: nowrap; text-align: center; }
+  .lab .name { font-size: 34px; letter-spacing: .24em; color: #f6eedd; text-shadow: 0 2px 14px rgba(0,0,0,.9); padding-left: .24em; }
+  .lab .sub { font-family: 'Noto Sans CJK SC', sans-serif; font-size: 19px; letter-spacing: .2em; color: rgba(226,206,160,.9); margin-top: 4px; text-shadow: 0 2px 10px rgba(0,0,0,.9); }
+  .lab .stem { margin: 10px auto 0; width: 1px; height: 64px; background: linear-gradient(to bottom, rgba(232,206,150,.9), rgba(232,206,150,0)); }
+  .lab.ambient .name { font-size: 30px; letter-spacing: .6em; color: rgba(236,230,214,.72); font-weight: 300; }
+  .lab.county .name { font-size: 30px; }
+
+  #intro { position: absolute; left: 0; right: 0; top: 700px; text-align: center; }
+  #intro .t { font-size: 132px; font-weight: 600; letter-spacing: .3em; padding-left: .3em; color: #f4ebd9; text-shadow: 0 6px 40px rgba(0,0,0,.6); }
+  #intro .r { margin: 40px auto 34px; height: 1px; width: 0; background: linear-gradient(to right, rgba(214,186,132,0), rgba(214,186,132,.95), rgba(214,186,132,0)); }
+  #intro .s { font-size: 34px; text-shadow: 0 2px 18px rgba(0,0,0,.8); letter-spacing: .36em; padding-left: .36em; color: rgba(226,204,160,.95); }
+
+  #outro { position: absolute; left: 0; right: 0; top: 700px; padding: 60px 0; text-align: center; background: radial-gradient(ellipse 60% 50% at center, rgba(5,6,8,.55), rgba(5,6,8,0)); }
+  #outro .q { font-size: 60px; font-weight: 600; line-height: 1.75; letter-spacing: .1em; color: #f6eedd; white-space: pre-line; text-shadow: 0 4px 30px rgba(0,0,0,.75); }
+  #outro .r { margin: 46px auto 0; height: 1px; width: 0; background: linear-gradient(to right, rgba(214,186,132,0), rgba(214,186,132,.95), rgba(214,186,132,0)); }
+  #mapcredit { position: absolute; right: 30px; bottom: 26px; font-family: 'Noto Sans CJK SC', sans-serif; font-size: 15px; letter-spacing: .04em; color: rgba(220,210,190,.38); }
+  #black { position: absolute; inset: 0; background: #000; opacity: 0; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <canvas id="gl" width="1080" height="1920"></canvas>
+  <div class="layer" id="labels"></div>
+  <div class="layer" id="bands"></div>
+  <div class="layer" id="cardlayer"><div id="card"></div></div>
+  <div class="layer" id="textlayer">
+    <div id="head"><div id="counter"><span id="cnt"></span><span class="rule"></span><span id="placeTop"></span></div><div id="year"></div><div id="era"></div></div>
+    <div id="foot"><div id="title"></div><div id="title-rule"></div><div id="body"></div><div id="src"></div></div>
+    <div id="intro"><div class="t"></div><div class="r"></div><div class="s"></div></div>
+    <div id="outro"><div class="q"></div><div class="r"></div></div>
+    <div id="mapcredit"></div>
+  </div>
+  <div class="layer" id="black"></div>
+</div>
+<script>window.addEventListener("error", e => { window.bootError = window.bootError || String(e.message || (e.target && e.target.src) || e); }, true);</script>
+<script type="module" src="/src/app.js"></script>
+</body>
+</html>
